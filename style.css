@@ -1,16 +1,11 @@
 .parent {
   border: 5px solid #66fcf1;
-  height: 500px;
-  width: 500px;
+  height: 800px;
+  width: 800px;
   position: relative;
 }
 .child {
-  border: 3px solid green;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.test {
-  border: 3px solid red;
+ height: 200px;
+ width: 200px;
+ background-color: red;
 }
